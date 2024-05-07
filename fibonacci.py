@@ -6,6 +6,8 @@ def fibonacci_recursive(n):
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
 # added comments
+# more comments
+# another one
 def fibonacci_dynamic(n):
     fib = [0, 1]
     for i in range(2, n + 1):
